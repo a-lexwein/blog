@@ -1,0 +1,19 @@
+---
+title: First Post Ever
+author: Alex
+date: '2018-02-15'
+slug: first-post-ever
+categories: []
+tags: []
+---
+
+I'm getting a hello world for a new blog built using blogdown.  Big thanks to Alison Presmanes Hill for her [great blog post](https://alison.rbind.io/post/up-and-running-with-blogdown/) of how to get started.
+
+```{r}
+library(ggplot2)
+
+
+ggplot(mpg, aes(displ, hwy, colour = class)) + 
+  geom_point() +
+  ggtitle('this should be fun!')
+```

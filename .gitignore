@@ -31,3 +31,13 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+.Rproj.user
+
+# from demo
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+blogdown
+.DS_Store # if a windows user, Thumbs.db instead
+public/ # if using Netlify
